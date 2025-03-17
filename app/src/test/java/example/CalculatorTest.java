@@ -15,6 +15,7 @@ public class CalculatorTest {
     }
     @Test
     public void testMinusBasic() {
+        System.out.println("test");
         Assert.assertEquals(10, calculator.minus(15, 5));
     }
     @Test
